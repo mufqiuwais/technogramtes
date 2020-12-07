@@ -5,7 +5,12 @@ import App from './App.vue'
 import {store} from './store/index'
 import 'nprogress/nprogress.css'
 import VirtualList from 'vue-virtual-scroll-list'
+import VueAnalytics from 'vue-analytics';
 
+Vue.use(VueAnalytics, {
+    id: 'G-RMLD19ZQ5X',
+    router
+})
 Vue.component('virtual-list', VirtualList)
 Vue.config.productionTip = false
 
