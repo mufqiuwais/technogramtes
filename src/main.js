@@ -8,7 +8,7 @@ import VirtualList from 'vue-virtual-scroll-list'
 import VueAnalytics from 'vue-analytics';
 
 Vue.use(VueAnalytics, {
-    id: '253620084',
+    id: 'UA-183633936-1',
     router
 })
 Vue.component('virtual-list', VirtualList)
