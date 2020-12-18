@@ -1,6 +1,6 @@
 // const BASE_URL = "https://technogram-api.technogram.tech"
 // const BASE_URL = "http://localhost:3000";
-const BASE_URL = "https://polar-forest-72541.herokuapp.com/news/recent";
+const BASE_URL = "https://polar-forest-72541.herokuapp.com";
 
 const BERITA_URL = BASE_URL + "/news";
 const KATEGORI_URL = BASE_URL + "/kategori";
